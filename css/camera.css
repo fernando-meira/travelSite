@@ -276,13 +276,12 @@
 }
 
 .caption a {
-  margin-top: 30px;
+  margin-top: 8px;
   font: 18px/20px "Open Sans", sans-serif;
   color: #fff;
   border-radius: 20px;
   text-transform: uppercase;
   padding: 12px 46px 13px;
-  box-shadow: 3px 3px 5px 3px #193c46;
 
   display: inline-block;
   background-color: #7ecefd;
@@ -293,6 +292,14 @@
   color: #fff;
   background-color: #002141;
   background-position: 0 -100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .caption a {
+    display: inline;
+    font: 1rem "Open Sans", sans-serif;
+    padding: 8px;
+  }
 }
 
 /**************************
